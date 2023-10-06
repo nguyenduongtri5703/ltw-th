@@ -1,0 +1,108 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Tahoma, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.form {
+    border: 8px solid #ccc;
+    width: 50%;
+    margin: auto;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 16px;
+    font-size: 1.4rem;
+}
+
+.form-contact__title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.form-contact__label {
+    margin-top: 16px;
+    font-weight: 500;
+    background: #ccc;
+    padding: 8px 8px 0;
+    font-size: 1rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.form-contact__input {
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    outline: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container-info--margin {
+    margin-left: 16px;
+}
+
+.form-contact__selected {
+    font-size: 1.2rem;
+    padding: 8px;
+    background: #ccc;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.form-contact__txtarea {
+    padding: 8px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid;
+    border-color: transparent #ccc #ccc #ccc;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.form-contact__submit {
+    margin-top: 16px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    padding: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-contact__label--meseage {
+    margin-top: 16px;
+    font-weight: 500;
+    background: #fff;
+    padding: 8px 8px 0;
+    font-size: 1rem;
+    border: 1px solid;
+    border-color: #ccc #ccc transparent #ccc;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}

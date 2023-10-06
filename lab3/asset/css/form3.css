@@ -1,0 +1,163 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Tahoma, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.form-info {
+    width: 600px;
+    margin: auto;
+    border: 4px solid #ccc;
+}
+
+.form-label {
+    display: block;
+    color: #7ED321;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 24px 16px 16px;
+}
+
+.box-info {
+    margin: 12px 16px;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.box-info__icon {
+    display: flex;
+    color: #ccc;
+    background-color: #e8e8e8;
+    font-size: 1.4rem;
+    align-items: center;
+    padding: 12px;
+    position: relative;
+}
+
+.box-info__icon::after {
+    content: "";
+    display: block;
+    border-left: 1px solid #888;
+    width: 12px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+}
+
+.box-info__input {
+    flex: 1;
+    font-size: 1.4rem;
+    padding: 12px;
+    background-color: #e8e8e8;
+    outline: none;
+    border: none;
+}
+
+.box-2-col {
+    display: flex;
+}
+
+.box-2-col-m-16 {
+    margin: 0 16px;
+}
+
+.box-date {
+    display: flex;
+}
+
+.box-info__date {
+    width: 33.3333%;
+    font-size: 1.4rem;
+    padding: 12px;
+    background-color: #e8e8e8;
+    outline: none;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+}
+
+.box-info__date:first-child {
+    margin-left: 16px;
+}
+
+.box-info__gender {
+    width: 50%;
+    font-size: 1.4rem;
+    padding: 12px;
+    background-color: #e8e8e8;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.box-info__gender:nth-child(1) {
+    margin-left: 8px;
+}
+
+.box-info__gender:nth-child(2) {
+    margin-right: 16px;
+}
+
+.payment {
+    width: 50%;
+    color: #888;
+    font-size: 1.4rem;
+    padding: 12px;
+    background-color: #e8e8e8;
+    outline: none;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.payment.payment--active {
+    background-color: #7ED321;
+}
+
+.bank-title.bank-title--active {
+    background-color: #fff;
+    color: #888;
+}
+
+.bank-title {
+    background: #888;
+    color: #fff;
+    padding: 2px;
+}
+
+.box-2-col.box-2-col-width-50 {
+    flex: 1;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.selected-date {
+    flex: 1;
+    color: #888;
+    font-size: 1.4rem;
+    background-color: #e8e8e8;
+    outline: none;
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 40px;
+}
+
+.description {
+    margin: 0 16px 32px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.desc {
+    margin-top: 12px;
+    margin-left: 6px;
+    color: #888;
+}
+
+

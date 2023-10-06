@@ -1,0 +1,96 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Tahoma, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.app {
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    width: 500px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 64px 0 32px;
+    font-weight: 800;
+}
+
+.form-input {
+    margin-bottom: 16px;
+    width: 80%;
+    padding: 16px;
+    font-size: 1.6rem;
+    box-shadow: 1px 2px 10px #ccc;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+.btn-sign-in {
+    background: violet;
+    outline: none;
+    border: none;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px violet;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    cursor: pointer;
+}
+
+.socials {
+    font-size: 1.4rem;
+    color: #888;
+}
+
+.form-icon-socials {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    font-size: 2rem;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+.icon img{
+    width: 40px;
+    margin: 0 4px;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.form-link-sign-up {
+    text-decoration: none;
+    margin-bottom: 24px;
+    font-size: 1.4rem;
+    color: #333;
+}
